@@ -14,7 +14,7 @@ function test(){
         driver.findElement(webdriver.By.name('firstname')).sendKeys('Meghali');
         driver.findElement(webdriver.By.name('lastname')).sendKeys('Phukan');
         driver.findElement(webdriver.By.name('email')).sendKeys('meghali.phukan@outlook.com');
-        driver.findElement(webdriver.By.name('phone')).sendKeys('07827932988');
+        driver.findElement(webdriver.By.name('phone')).sendKeys('07827932989');
         driver.findElement(webdriver.By.className('rbc-date-cell rbc-now rbc-current')).click();            
         let sourceEle = driver.findElement(webdriver.By.className('rbc-date-cell rbc-now rbc-current'));
         let targetEle = driver.findElement(webdriver.By.className('rbc-date-cell'));
